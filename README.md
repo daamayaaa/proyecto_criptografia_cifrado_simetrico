@@ -8,15 +8,15 @@ Este ejemplo usa el modo AES, que ademas de cifrar, garantiza la integridad y au
 ---
 
 ### Flujo de operación.
-* -> Se genera el mensaje original.
-* -> Se genera 	una clave AES de 256.
-* -> Se hace el cifrado del texto plano usando AES con la clave secreta proporcionada.
-* -> Se hace el cifrado del texto plano usando AES con la clave secreta proporcionada.
-* -> Se hace el descifrado del texto cifrado usando AES con la MISMA clave secreta usada para cifrar. 
-
----
+* Se genera el mensaje original.
+* Se genera 	una clave AES de 256.
+* Se hace el cifrado del texto plano usando AES con la clave secreta proporcionada.
+* Se hace el cifrado del texto plano usando AES con la clave secreta proporcionada.
+* Se hace el descifrado del texto cifrado usando AES con la MISMA clave secreta usada para cifrar. 
 
 Este es el principio central de un criptosistema simetrico.
+---
+
 
 
 ## Ejecución del programa.
@@ -34,8 +34,7 @@ Resultado Esperado:
 ```La información confidencial de la empresa```
 
 
-
-## Crear el proyecto en Railway
+## Crear el proyecto en Eclipse
 
 Para ejecutar en Eclipse:
 1. Crear un nuevo "Java Project".
