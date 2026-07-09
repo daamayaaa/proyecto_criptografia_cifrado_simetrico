@@ -1,8 +1,4 @@
-# proyecto_criptografia_cifrado_simetrico
-Proyecto de prueba para servicio de consulta de categoría.
-
-
-# Seguridad en el Desarrollo de Software
+# proyecto_criptografia_cifrado_simetrico - Seguridad en el Desarrollo de Software
 Ejemplo funcional de un criptosistema simetrico (clave privada) usando **Java** desarrollado para la asignatura **Seguridad en el Desarrollo de Software**.
 
 Este ejemplo usa el modo AES, que ademas de cifrar, garantiza la integridad y autenticidad del mensaje (cifrado autenticado).
