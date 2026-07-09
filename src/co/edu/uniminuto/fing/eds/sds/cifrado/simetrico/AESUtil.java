@@ -13,22 +13,25 @@ import javax.crypto.SecretKey;
  * nivel industrial. Usa UNA MISMA clave secreta tanto para cifrar como para
  * descifrar la informacion.
  *
- * Este ejemplo usa el modo AES/GCM, que ademas de cifrar, garantiza la
+ * Este ejemplo usa el modo AES, que ademas de cifrar, garantiza la
  * integridad y autenticidad del mensaje (cifrado autenticado).
  *
- * Para ejecutar en Eclipse:
- * 1. Crear un nuevo "Java Project".
- * 2. Copiar este archivo dentro de la carpeta "src" (paquete por defecto).
- * 3. Click derecho sobre el archivo -> Run As -> Java Application.
+ * @author Diego Alejandro Amaya Arjona
+ * @version 1.0
+ * @since Julio 13 de 2026.
+ *
  */
 public class AESUtil {
 
+	// Tamano de la clave simetrica en bits (128, 192 o 256)
+    private static final int TAMAÑO_CLAVE = 256;
+	
 	/**
-	 * Genera una clave AES de 256 bits
+	 * Genera una clave AES de 256 bits.
 	 */
 	public static SecretKey generarClave() throws Exception {
 		KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
-		keyGenerator.init(256);
+		keyGenerator.init(TAMAÑO_CLAVE);
 		return keyGenerator.generateKey();
 	}
 

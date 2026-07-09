@@ -17,7 +17,9 @@ Este ejemplo usa el modo AES, que ademas de cifrar, garantiza la integridad y au
 Este es el principio central de un criptosistema simetrico.
 ---
 
+Al ejecutarlo verás en consola: la clave generada, el mensaje original, el texto cifrado en Base64, el texto descifrado, y una comprobación de que coincide con el original — demostrando el principio clave del criptosistema simétrico: una misma clave sirve para cifrar y descifrar.
 
+---
 
 ## Ejecución del programa.
 
