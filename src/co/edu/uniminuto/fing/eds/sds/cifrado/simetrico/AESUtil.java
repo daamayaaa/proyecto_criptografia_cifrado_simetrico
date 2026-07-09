@@ -1,4 +1,4 @@
-package co.edu.uniminuto.fing.eds.sds.cifrado;
+package co.edu.uniminuto.fing.eds.sds.cifrado.simetrico;
 
 import java.util.Base64;
 
@@ -48,7 +48,7 @@ public class AESUtil {
 	}
 
     /**
-     * Descifra un texto cifrado usando AES con la MISMA clave secreta usada
+     * Descifra un texto cifrado usando AES con la MISMA clave secreta usada 
      * para cifrar. Este es el principio central de un criptosistema simetrico.
 	 * 
 	 * @param textoCifrado

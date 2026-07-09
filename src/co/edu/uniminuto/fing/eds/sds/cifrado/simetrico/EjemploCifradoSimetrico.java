@@ -1,4 +1,4 @@
-package co.edu.uniminuto.fing.eds.sds.cifrado;
+package co.edu.uniminuto.fing.eds.sds.cifrado.simetrico;
 
 import javax.crypto.SecretKey;
 import java.util.Base64;
